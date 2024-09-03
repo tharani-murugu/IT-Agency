@@ -1,0 +1,182 @@
+.container{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.logo{
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+.header{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-left: -10%;
+    text-decoration: none;
+}
+.header p{
+    display: inline-block;
+    margin-right: 1.5%; 
+}
+.header a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+    font-size: 25px;  
+}
+.container1{
+    text-align: center;
+    margin-top: 3%;
+}
+.container1 p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.image4{
+    background-color: #2D2F3B;
+}
+.container2{
+    margin-left: 5%;
+    
+}
+.line{
+    margin-left: 50%;
+    margin-bottom: 5%;
+}
+.line h1{
+    margin-left: -16%;
+    font-size: 50px;
+}
+.container3{
+    margin-bottom: 10%;
+    display: flex;
+}
+.cont img{
+    width: 500px;
+    margin-left: 35%;
+    height: 510px;
+}
+.form-container {
+            background-color: #000;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+            margin-left: 13%;
+         
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #fff;
+            color:black
+        }
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+        .form-group.inline-group {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .form-group.inline-group input[type="text"] {
+            width: calc(90% - 10px); 
+        }
+        .submit-btn {
+            width: 30%;
+            padding: 10px;
+            background-color: #FF8C00;
+            border: none;
+            border-radius: 5px;
+            font-size: 10px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #E67E00;
+        }
+
+
+.container4{
+    width: 100%;
+}
+.img1{
+    margin-left: 50%;
+}
+.img2{
+    margin-left:-4%;
+    margin-bottom: -5%;
+}
+.last{
+    background-image: url(last.png);
+    height: 100%;
+}
+.last h1{
+    margin-left: 44%;
+    margin-top: 5%;
+    color: white;
+}
+.last img{
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 180%;
+    }
+    .container1{
+        width: 180%;
+    }
+    .container2{
+        width: 170%;
+    }
+    .container2 img {
+        width: 90%;
+        height: 500px;
+        margin-left: 2%;
+        margin-bottom: 5%;
+    }
+    .line h1{
+        width: 180%;
+        margin-left: 50%;
+    }
+    .line img{
+     
+        margin-left: 80%;
+    }
+    .container3{
+        width: 180%;
+        display: inline-block;
+    }
+    .cont img{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    .form-container{
+        width: -180%;
+        
+    }
+    .form-group inline-group{
+        width: 190%;
+        margin-left: 10%;
+    }
+}
